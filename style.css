@@ -1,9 +1,11 @@
 /* Imports - Tipografía */
-@import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
-
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+@font-face { 
+  font-family: "";  
+  src: url(""), format("woff"); 
+}
+@font-face { 
+  font-family: "";  
+  src: url(""), format("woff"); 
 }
 
 /* Reset */
