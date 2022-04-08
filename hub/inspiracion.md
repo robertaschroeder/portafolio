@@ -1,5 +1,6 @@
 Portafolios de inspiración:
 
-https://ndo.dev
-https://www.kennytye.com
-https://www.miriamsuzanne.com
+https://www.awwwards.com/sites/hot-type
+https://akzidenzgrotesk.pro/
+https://gordonvonsteiner.com/
+https://www.ondrejzunka.com/the-fleur
