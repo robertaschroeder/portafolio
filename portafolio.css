@@ -1,6 +1,6 @@
 @font-face {
   font-family: "PPFormula";
-  src: url("https: //res.cloudinary.com/drwz8ea7q/raw/upload/v1651596111/Portafolio/PPFormula-Medium_k65ets.woff"),format("woff");
+  src: url("https: //res.cloudinary.com/drwz8ea7q/raw/upload/v1651868248/Portafolio/PPFormulaCondensed-Ultralight_ozobkr.woff2"), format("woff2");
 }
 
 body {
@@ -41,6 +41,9 @@ li {
 .menu {
   border: 2px solid blue;
   max-height: 100vh;
+  position: sticky;
+  top: 0.1rem;
+  left: 0.1rem;
 }
 
 .menu ul {
@@ -50,6 +53,7 @@ li {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   padding-bottom: 40px;
+  padding-right: 30px;
 }
 
 /* proyectos */
@@ -58,12 +62,16 @@ li {
   height: 100vh;
   display: grid;
   place-content: center;
+  position: sticky;
+  top: 0.1rem;
+  left: 0.1rem;
 }
 
 .proyectos ul {
   border: 2px solid yellow;
   margin: auto;
   max-height: fit-content;
+  position: sticky;
 }
 
 /* proyectos img */
