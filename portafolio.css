@@ -1,6 +1,8 @@
 @font-face {
   font-family: "PPFormula";
   src: url("https: //res.cloudinary.com/drwz8ea7q/raw/upload/v1651868248/Portafolio/PPFormulaCondensed-Ultralight_ozobkr.woff2"), format("woff2");
+  font-weight: 100;
+  font-style: normal;
 }
 
 /* @font-face {
