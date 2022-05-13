@@ -1,19 +1,11 @@
 @font-face {
-  font-family: "PPFormula";
-  src: url("https: //res.cloudinary.com/drwz8ea7q/raw/upload/v1651868248/Portafolio/PPFormulaCondensed-Ultralight_ozobkr.woff2"), format("woff2");
-  font-weight: 100;
-  font-style: normal;
+  font-family: 'Space Grotesk', sans-serif;
+  src: url('https: //fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
 }
 
-/* @font-face {
-  font-family: <un-nombre-de-fuente-remota>;
-  src: <origen> [,<origen>]*;
-  [font-weight: <peso>];
-  [font-style: <estilo>];
-}
- */
 body {
-  font-family: "PPFormula";
+
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 /* Reset */
@@ -26,8 +18,8 @@ body {
 body {
   line-height: 1.5;
   min-height: 100vh;
-  font-size: 25px;
-  font-family: "PPFormula";
+  font-size: 27px;
+
 }
 
 ul {
@@ -48,21 +40,26 @@ li {
 
 /* menu */
 .menu {
-  border: 2px solid blue;
+  border: 2px solid rgb(28, 203, 209);
   max-height: 100vh;
   position: sticky;
-  top: 0.1rem;
-  left: 0.1rem;
+  display: flex;
+
 }
 
 .menu ul {
-  display: grid;
+  border: 2px solid blue;
   grid-auto-flow: column;
-  gap: 100px;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  padding-bottom: 40px;
-  padding-right: 30px;
+  margin: auto;
+  display: flex;
+  gap: 150px;
+  position: sticky;
+}
+
+.menu ul li {
+  font-size: 20px;
 }
 
 /* proyectos */
@@ -77,13 +74,22 @@ li {
 }
 
 .proyectos ul {
-  border: 2px solid yellow;
   margin: auto;
   max-height: fit-content;
   position: sticky;
+  top: .1rem;
+}
+.proyectos li:hover{
+  font-style:italic;
 }
 
 /* proyectos img */
 .proyectos-imagenes {
   border: 2px solid red;
+  padding-right: 100px;
+  padding-top: 40px;
+}
+
+.proyectos-imagenes img {
+  object-fit: cover;
 }
