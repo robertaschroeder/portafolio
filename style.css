@@ -29,14 +29,16 @@ li {
 .home {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 100px 1fr 0.5fr;
+  grid-template-columns: 100px 0.8fr 0.5fr;
+  padding-top: 10px;
 }
 
 /* menu */
 .menu {
+  /* border: 2px solid rgb(53, 14, 227); */
   max-height: 100vh;
   position: sticky;
-  top: 10px;
+  margin: auto;
   display: flex;
 }
 
@@ -46,20 +48,20 @@ li {
   transform: rotate(180deg);
   margin: auto;
   display: flex;
-  gap: 150px;
+  gap: 180px;
 }
 
 .menu ul li {
-  font-size: 20px;
+  font-size: 23px;
+  align-self: center;
 }
 
 .menu li:nth-child(2) {
-  font-weight: bold;
+  font-style: italic;
 }
 
 /* proyectos */
 .container {
-  background: lightgray;
   /* max-height: 900px; */
   display: grid;
   grid-template-rows: repeat(5, auto);
@@ -82,17 +84,18 @@ li {
 }
 
 .proyectos li:hover {
-  font-weight: bold;
+  font-style: italic;
 }
 
 /* proyectos img */
 .proyectos-imagenes {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   /* max-height: 281.25px; */
-  max-height: 840px;
+  max-height: 750px;
   flex-direction: column;
   overflow-x: hidden;
+
   /* overflow-y: auto; */
   /* min-height: 400px; */
 }
@@ -101,7 +104,7 @@ li {
   object-fit: cover;
   width: 500px;
   height: 281.25px;
-  aspect-ratio: 16 / 9;
-  top: 10px;
+  /* aspect-ratio: 16 / 9; */
+  /* top: 10px; */
   display: block;
 }
