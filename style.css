@@ -53,14 +53,21 @@ li {
   font-size: 20px;
 }
 
-.menu li:nth-child(2){
+.menu li:nth-child(2) {
   font-weight: bold;
 }
 
 /* proyectos */
+.container {
+  background: lightgray;
+  /* max-height: 900px; */
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+}
+
 .proyectos {
   /* border: 2px solid yellow; */
-  height: 100vh;
+  /* height: 100vh; */
   display: grid;
   place-content: center;
   position: sticky;
@@ -80,10 +87,14 @@ li {
 
 /* proyectos img */
 .proyectos-imagenes {
- border: 2px solid red;
+  border: 2px solid red;
   display: flex;
-  overflow-y: auto;
-  min-height: 400px;
+  /* max-height: 281.25px; */
+  max-height: 840px;
+  flex-direction: column;
+  overflow-x: hidden;
+  /* overflow-y: auto; */
+  /* min-height: 400px; */
 }
 
 .proyectos-imagenes img {
@@ -92,5 +103,5 @@ li {
   height: 281.25px;
   aspect-ratio: 16 / 9;
   top: 10px;
-  display: block;  
+  display: block;
 }
