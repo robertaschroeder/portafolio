@@ -4,7 +4,7 @@ Organización de tareas por completar para terminar el proyecto portafolio.
 
 ### Todo
 
-- [ ] Actualizar el título del documento
+- [x] Actualizar el título del documento
       https://github.com/robertaschroeder/portafolio/blob/d4be3fca4e6123b43e6585e23696394f117cc37e/index.html#L8
 - [ ] Enlazar documentos
       https://github.com/robertaschroeder/portafolio/blob/d4be3fca4e6123b43e6585e23696394f117cc37e/index.html#L19-L32
