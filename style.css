@@ -83,7 +83,15 @@ li {
   top: 0.1rem;
 }
 
-.proyectos li:hover {
+.menu ul li:hover {
+  font-style: italic;
+}
+
+.menu li:nth-child(1):hover + li {
+  font-style: inherit;
+}
+
+.menu li:nth-child(2) {
   font-style: italic;
 }
 
@@ -120,5 +128,4 @@ li {
   font-size: 20px;
   padding-left: 20px;
   padding-right: 20px;
-
 }
