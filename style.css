@@ -87,15 +87,16 @@ li {
   font-style: italic;
 }
 
-.menu li:nth-child(1):hover + li {
+.menu li:nth-child(1):hover+li {
   font-style: inherit;
 }
-
+.menu li:nth-child(3):hover+li {
+  font-style: inherit;
+}
 .menu li:nth-child(2) {
   font-style: italic;
 }
 
-/* proyectos img */
 .proyectos-imagenes {
   /* border: 2px solid red; */
   display: flex;
